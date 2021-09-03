@@ -28,6 +28,7 @@ main {
     font-size: 7vh;
     color: #fff;
     width: 70vw;
+    font-weight: 100;
   }
 
   .buttons {
@@ -44,6 +45,28 @@ main {
 
     button:hover{
         box-shadow: 0.5vw 0.7vh 0.6vw rgba(37, 240, 37, 0.568);
+    }
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  main{
+    img{
+    position: absolute;
+    top: 16vh;
+    left: 18vw;
+    width: 64vw;
+    height: 25vh;
+    }
+  }
+
+  .tag {
+    top: 45vh;
+    left: 10vw;
+
+    h1 {
+      font-size: 5vh;
+      width: 80vw;
     }
   }
 }

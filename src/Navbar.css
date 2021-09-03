@@ -19,7 +19,7 @@ nav {
   border-bottom: 1px solid #fff;
   z-index: 1;
 }
-nav img {
+nav #logo {
   width: 13.5vw;
   margin-left: 3vw;
   cursor: pointer;
@@ -39,6 +39,23 @@ nav ul li {
 nav ul li:hover {
   background-color: #fff;
   color: #000;
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  nav #logo {
+    width: 25vw;
+  }
+  nav #menu {
+    margin-right: 3vw;
+  }
+  nav ul {
+    display: none;
+  }
+}
+@media screen and (min-width: 426px) {
+  #menu {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=Navbar.css.map */

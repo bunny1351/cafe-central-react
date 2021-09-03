@@ -18,7 +18,7 @@ nav{
     border-bottom: 1px solid #fff;
     z-index: 1;
 
-    img{
+    #logo{
         width: 13.5vw;
         margin-left: 3vw;
         cursor: pointer;
@@ -44,3 +44,26 @@ nav{
     }
 
 }
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+    nav{
+        #logo{
+            width: 25vw;
+        }
+
+        #menu{
+            margin-right: 3vw;
+        }
+
+        ul{
+            display: none;
+        }
+    } 
+}
+
+@media screen and (min-width: 426px) {
+    #menu{
+        display: none;
+    }
+}
+
