@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.menu {
+  overflow: hidden;
+  h1 {
+    font-size: 5vw;
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+  }
+
+  table {
+    color: #fff;
+    font-size: 3vh;
+    width: 50vw;
+    margin: 4vh 25vw;
+    text-align: justify;
+
+    .main {
+      padding-top: 3vh;
+      padding-bottom: 1vh;
+      font-size: 3.2vh;
+    }
+
+    td {
+      font-size: 2.8vh;
+    }
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .menu {
+    overflow: hidden;
+    h1 {
+      font-size: 6vw;
+    }
+
+    table {
+      width: 60vw;
+      margin: 4vh 20vw;
+      text-align: justify;
+
+      .main {
+        padding-top: 2vh;
+        padding-bottom: 1vh;
+        font-size: 2.8vh;
+      }
+
+      th {
+        font-size: 2.5vh;
+      }
+      td {
+        font-size: 2.3vh;
+      }
+    }
+  }
+}

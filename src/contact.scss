@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contact {
+  overflow: hidden;
+  h1 {
+    font-size: 5vw;
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+  }
+
+  p {
+    margin-top: 10vh;
+    text-align: center;
+    font-size: 4vh;
+    color: #fff;
+
+    span {
+      font-size: 4.5vh;
+      color: rgb(56, 184, 77);
+      font-weight: 400;
+    }
+  }
+}

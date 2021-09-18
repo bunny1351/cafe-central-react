@@ -10,8 +10,8 @@ main {
   img {
     position: absolute;
     top: 16vh;
-    left: 22vw;
-    width: 56vw;
+    left: 25vw;
+    width: 50vw;
     height: 38vh;
   }
 }
@@ -25,7 +25,7 @@ main {
   text-align: center;
 
   h1 {
-    font-size: 7vh;
+    font-size: 6.5vh;
     color: #fff;
     width: 70vw;
     font-weight: 100;
@@ -34,29 +34,51 @@ main {
   .buttons {
     margin-top: 3vh;
 
-    button{
-        padding: 1.5vh 1vw;
-        margin: 0 1.5vw;
-        border-radius: 1vw;
-        border: 1px #fff solid;
-        font-size: 2.4vh;
-        cursor: pointer;
+    button {
+      padding: 1.5vh 1vw;
+      margin: 0 1.5vw;
+      border-radius: 1vw;
+      border: 1px #fff solid;
+      font-size: 2.4vh;
+      cursor: pointer;
     }
 
-    button:hover{
-        box-shadow: 0.5vw 0.7vh 0.6vw rgba(37, 240, 37, 0.568);
+    button:hover {
+      box-shadow: 0.5vw 0.7vh 0.6vw rgba(37, 240, 37, 0.568);
     }
   }
 }
 
 @media screen and (min-width: 320px) and (max-width: 425px) {
-  main{
-    img{
-    position: absolute;
-    top: 16vh;
-    left: 18vw;
-    width: 64vw;
-    height: 25vh;
+  main {
+    img {
+      position: absolute;
+      top: 16vh;
+      left: 20vw;
+      width: 60vw;
+      height: 22vh;
+    }
+  }
+
+  .tag {
+    top: 40vh;
+    left: 10vw;
+
+    h1 {
+      font-size: 5vh;
+      width: 80vw;
+    }
+  }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  main {
+    img {
+      position: absolute;
+      top: 16vh;
+      left: 20vw;
+      width: 60vw;
+      height: 27vh;
     }
   }
 

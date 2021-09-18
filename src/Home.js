@@ -1,14 +1,13 @@
 import React from 'react'
-import './home.css'
+import './home.scss'
 import logo from './cafe-central-logo.png'
 import Tagline from './Tagline'
 
-function Home(){
-    return(
+function Home() {
+    return (
         <main>
             <img src={logo} alt="main logo" />
             <Tagline />
-            
         </main>
     )
 }
